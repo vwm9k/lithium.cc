@@ -1,0 +1,10 @@
+local Games = {
+    [13190091082] = 'https://raw.githubusercontent.com/vwm9k/lithium.cc/main/Wisteria%202';
+    [11599532987] = 'https://raw.githubusercontent.com/vwm9k/lithium.cc/main/Wisteria%202%20Final%20Selection';
+    [11573834824] = 'https://raw.githubusercontent.com/vwm9k/lithium.cc/main/Wisteria%202%20Inf%20Spins'
+}
+if Games[game.PlaceId] then
+    return true, loadstring(game:HttpGet(Games[game.PlaceId]))
+else
+    return false
+end
