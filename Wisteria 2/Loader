@@ -21,7 +21,7 @@ end)
 repeat TaskWait() until game:IsLoaded()
 
 
-local Exists, Script = loadstring(game:HttpGet("https://raw.githubusercontent.com/vwm9k/lithium.cc/main/Games"))()
+local Exists, Script = loadstring(game:HttpGet("https://raw.githubusercontent.com/vwm9k/lithium.cc/main/Wisteria%202/Games"))()
 if Exists then
     TaskWait(1)
     Script()
